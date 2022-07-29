@@ -1,0 +1,53 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+    background-color: #dcdcdc;
+}
+.header-logo{
+    width: 50px;
+    height: 50px;
+    background-color: #767676;
+    
+}
+.header-company-name{
+    font-size: 24px;
+}
+.header-company-contacts{
+    
+}
+.header-menu{
+    background-color: #777777;
+    color: white;
+    text-align: center;
+    padding: 0 17%;
+
+}
+.header-menu-ul{
+    list-style-type: none;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 0;
+}
+.header-menu-ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header-menu-ul li {
+    border-right: 2px solid black;
+}
