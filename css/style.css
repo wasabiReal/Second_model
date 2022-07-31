@@ -3,9 +3,8 @@
     src: url("/fonts/PT_Sans-Web-Italic.ttf") format("truetype");
     font-style: normal; 
 }
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PTSans', sans-serif;
     font-size: 14px;
     line-height: 22px;
     color: #767676;
@@ -38,6 +37,7 @@ a{
     margin-left: auto;
     font-size: 36px;
     line-height: 40px;
+    font-family: 'PT Sans', sans-serif;
 }
 .header-menu{
     background-color: #777777;
