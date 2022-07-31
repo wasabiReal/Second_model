@@ -1,6 +1,6 @@
 @font-face {
     font-family: PTSans-I;
-    src: url("/fonts/PT_Sans-Web-Italic.ttf") format("truetype");
+    src: url("../fonts/PT_Sans-Web-Italic.ttf") format("truetype");
     font-style: normal; 
 }
 body{
@@ -20,7 +20,6 @@ a{
 .header-content{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 50px 15%;
     background-color: #dcdcdc;
 }
@@ -37,7 +36,7 @@ a{
     margin-left: auto;
     font-size: 36px;
     line-height: 40px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PTSans-I', sans-serif;
 }
 .header-menu{
     background-color: #777777;
